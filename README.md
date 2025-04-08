@@ -16,7 +16,7 @@ The time will show up in the bottom left, immediately left of your `$PS1`.
 ### Use the Installer
 
 ```bash
-curl https://raw.githubusercontent.com/hopeseekr/bash-timer/v1.5.0/install | bash
+curl https://raw.githubusercontent.com/lucenarenato/bash-timer/v1.5.0/install | bash
 ```
 
 ### Manual
