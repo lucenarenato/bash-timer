@@ -24,10 +24,10 @@ curl https://raw.githubusercontent.com/hopeseekr/bash-timer/v1.5.0/install | bas
 1. Download the files:
 
 ```bash
-curl https://raw.githubusercontent.com/hopeseekr/bash-timer/v1.5.0/bash-timer.sh -o $HOME/.bash-timer.sh
+curl https://raw.githubusercontent.com/lucenarenato/bash-timer/v1.5.0/bash-timer.sh -o $HOME/.bash-timer.sh
 echo "c9cf58a86712eb7360e08a072d03e53548e5e362944ab651aa71ee2a7846d22f $HOME/.bash-timer.sh" | sha256sum -c -
 
-curl https://raw.githubusercontent.com/hopeseekr/bash-timer/v1.5.0/assets/bash-preexec.sh -o $HOME/.bash-preexec.sh
+curl https://raw.githubusercontent.com/lucenarenato/bash-timer/v1.5.0/assets/bash-preexec.sh -o $HOME/.bash-preexec.sh
 echo "d512aa6043d69d636f0db711aab1675cc7c49b39da9ae58afcfb916dca8c4464 $HOME/.bash-preexec.sh" | sha256sum -c -
 ```
 
@@ -35,7 +35,7 @@ echo "d512aa6043d69d636f0db711aab1675cc7c49b39da9ae58afcfb916dca8c4464 $HOME/.ba
 
 ```bash
 # Bash Timer
-# See https://github.com/hopeseekr/bash-timer
+# See https://github.com/lucenarenato/bash-timer
 [[ -f ~/.bash-timer.sh ]] && source ~/.bash-timer.sh
 
 # See https://github.com/rcaloras/bash-preexec
@@ -54,3 +54,4 @@ This project is licensed under the [Creative Commons Attribution License v4.0 In
 [Theodore R. Smith](https://www.phpexperts.pro/]) <theodore@phpexperts.pro>  
 GPG Fingerprint: 4BF8 2613 1C34 87AC D28F  2AD8 EB24 A91D D612 5690  
 CEO: PHP Experts, Inc.
+- Renato Lucena (lucenarenato)
